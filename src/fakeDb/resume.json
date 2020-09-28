@@ -1,0 +1,39 @@
+{
+	"data": [
+			{
+				"id" : 1,
+				"subtitle" : "Experiencia laboral",
+				"text" : "lorem impsun ..."
+			},
+			{
+				"id" : 2,
+				"subtitle" : "Capacitaciones",
+				"text" : "lorem impsun ..."
+			},
+			{
+				"id": 3,
+				"subtitle" : "Habilidades",
+				"text": "lorem impsun ..."
+			},
+			{
+				"id": 4,
+				"subtitle" : "Habilidades tecnicas",
+				"text" : "lorem impsun ..."
+			},
+			{
+				"id": 5,
+				"subtitle" : "Habilidades sociales",
+				"text": "lorem impsun ..."
+			},
+			{
+				"id": 6,
+				"subtitle" : "Objetivos",
+				"text": "lorem impsun ..."
+			},
+			{
+				"id": 7,
+				"subtitle" : "Por qué contratarme",
+				"text": "lorem impsun ..."
+			}
+	]
+}

@@ -1,0 +1,82 @@
+
+.navbar {
+	display: flex;
+	align-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	padding: 4vw 0 0 3vw;
+	width: calc(100% - 4vw);
+}
+
+.title {
+	font-family: var(--title);
+	color: var(--stroke);
+	font-size: 5vmax;
+}
+
+.darkmodeContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input {
+	display: none;
+}
+
+.darkmode {
+	width: 70px;
+	max-width: 7vmax;
+	max-height: 3.5vmax;
+	height: 25px;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-right: 10vw;
+	overflow: hidden;
+}
+
+.darkOn {
+	justify-content: flex-end;
+}
+
+.darkmode:before {
+	content: '';
+	border-radius: 25px;
+	margin: 0 -3px 0 -3px;
+	position: relative;	
+	width: 50%;
+	height: 100%;
+	background-color: var(--attention);
+}
+
+@media print {
+	.darkmode {
+		display: none;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 800px) {
+	.darkmode {
+		border: 2px solid var(--stroke);
+	}
+	.darkmode:before {
+		border: 2px solid var(--stroke);
+	}
+}
+
+@media (min-width: 800px) {
+	.title {
+		font-size: 50px;
+	}
+	.darkmode {
+		border: 3px solid var(--stroke);
+	}
+	.darkmode:before {
+		border: 3px solid var(--stroke);
+	}
+}
+

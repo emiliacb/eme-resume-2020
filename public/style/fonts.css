@@ -1,0 +1,13 @@
+/*<==== Import Font-families*/
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
+
+/*<==== Variables Font-families*/
+
+:root {
+--title : 'Share Tech Mono' ;
+--subtitle : 'Share Tech Mono' ;
+--content: 'Inconsolata';
+}

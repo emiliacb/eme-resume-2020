@@ -1,0 +1,14 @@
+
+.containerResume {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	max-width: 800px;
+	padding: 3vmax;
+}
+
+.icons {
+	margin-top: 20px;
+}

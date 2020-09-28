@@ -1,0 +1,50 @@
+.container{
+text-align: left;
+}
+.subtitle {
+	align-self: flex-end;
+	font-family: var(--subtitle);
+	font-size: 3.3vw;
+	color: var(--stroke);
+	margin-right: 60px;
+}
+.divisionBar {
+	display: flex;
+	height: 1.5vw;
+	margin: 1vw 0 1vw 0;
+	max-width: 800px;
+	width: 95vw;
+}
+.content {
+	font-family: var(--content);
+	font-size: 2.5vw;
+	color: var(--stroke);
+	margin: 3vw 0 3vw 0;
+}
+
+.text {
+	max-width: 80% !important;
+	margin: auto;
+}
+
+@media (max-width: 550px) {
+	.subtitle {
+		font-size: 3vh;
+	}
+	.divisionBar {
+		height: 1.5vh;
+		width: 98vw;
+	}
+	.content {
+		font-size: 3vmax;
+	}
+}
+
+@media (min-width: 800px) {
+	.subtitle {
+		font-size: 25px;
+	}
+	.content {
+		font-size: 18px;
+	}
+}

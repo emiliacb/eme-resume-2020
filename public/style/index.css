@@ -1,0 +1,4 @@
+body {
+	background-color: var(--app-bg);
+	user-select: none;
+}
