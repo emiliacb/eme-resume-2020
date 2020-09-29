@@ -13,5 +13,7 @@ module.exports = (req, res) => {
 			res.json(resume_ES);
 			break;
 	}
-	res.json()
+	res.json({
+		"hola": "no estaría funcionando"
+	})
 }
