@@ -14,7 +14,7 @@ function Home({lang}) {
 	useEffect(
 		() => {
 			setItsLoading(true);
-			axios.get(`http://localhost:3000/api/lang/?query=${lang}`)
+			axios.get(`https://em3reactpage.vercel.app/api/lang/?query=${lang}`)
 			.then(res => {
 				setResume(res.data);
 				setItsLoading(false);
