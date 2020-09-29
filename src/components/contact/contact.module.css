@@ -27,6 +27,67 @@
 	  	animation-iteration-count: infinite;
 }
 
+.containerContacto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.form input,textarea {
+	margin: auto;
+	margin: 1vh 0 1vh 0;
+	border: none;
+	box-shadow: 0 0 3px 1px var(--stroke);
+}
+
+
+.form input:focus {
+	outline: none;
+}
+
+.name {
+	width: 50vw;
+	min-height: 2em;
+	max-width: 80%;
+}
+
+.text {
+	width: 70vw;
+	resize: none;
+	overflow: scroll;
+	height: 30vh;
+}
+
+.text:focus {
+	outline: none;
+}
+
+.submit {
+	max-width: 200px;
+	max-height: 30px;
+	width: 50vw;
+	height: 10vw;
+	border: none;
+	font-family: consolas;
+	font-size: 1em;
+	background-color: transparent;
+}
+
+.submit:hover {
+	transform: scale(0.95);
+	text-transform: uppercase;
+}
+
+.submit:active {
+	background-color: white;
+}
+
 .open {
 	height: 100%;
 	width: 100%;

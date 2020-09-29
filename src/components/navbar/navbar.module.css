@@ -15,6 +15,21 @@
 	font-size: 5vmax;
 }
 
+.linkContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.link {
+	margin: 10px;
+	color: var(--stroke);
+	font-family: var(--title);
+}
+
+.link:hover {
+	text-transform: uppercase;
+}
+
 .darkmodeContainer {
 	display: flex;
 	justify-content: space-between;

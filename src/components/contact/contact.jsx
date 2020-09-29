@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Infobox from '../infobox/infobox.jsx';
 import style from './contact.module.css'
 
-const Contact = () => {
+const Contact = ({lang}) => {
 
 	const [contacto, setContacto] = useState('closed');
 	
@@ -24,10 +24,26 @@ const Contact = () => {
 					className = {`${style.contact} ${style[contacto]}`}
 					onClick = {handleClickOpen}
 			>	
-				<h2 className={style.h2Contact}>Contacto {contacto === 'closed' && <i>↑</i>}</h2>
+				<h2 className={style.h2Contact}>
+					{lang == 'ES' && 'Contacto '}
+					{lang == 'EN' && 'Contact  '}
+				 {contacto === 'closed' && <i>↑</i>}</h2>
 				{
 					contacto === 'open' &&
-					<Infobox subtitle={'Datos'} text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi exercitationem ratione facilis, soluta aperiam sit est nam doloribus dolorem ullam tenetur aliquid, voluptatum accusantium incidunt deserunt placeat suscipit, ipsam nemo?'} />
+					<div className={style.containerContacto}>
+						<Infobox subtitle={'Title'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti.'} />
+						<form action="#" className={style.form}>
+							<input type="text" 
+										className={style.name} 
+										name="" 
+										id="" />
+							<textarea className={style.text} 
+												name="" id="" />
+							<input 
+										className={style.submit}
+										type="submit" />
+						</form>
+					</div>
 				}
 			</div>
 			{ 

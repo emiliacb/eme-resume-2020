@@ -1,8 +1,6 @@
-import React from 'react';
-
 const DarkMode = (dark) => {
 			const root = document.documentElement.style;
-			if (dark == 'darkOn') {
+			if (dark === 'darkOn') {
 				root.setProperty('--app-bg', 'var(--dark)')
 				root.setProperty('--stroke', 'var(--light)')
 				root.setProperty('--attention', '#F39C12')
