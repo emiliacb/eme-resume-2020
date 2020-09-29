@@ -7,10 +7,11 @@ module.exports = (req, res) => {
 	} = req
 	switch (lang) {
 		case ES :
-			res.json()
+			res.json(resume_EN)
 			break;
 		case EN :
-			res.json();
+			res.json(resume_ES);
 			break;
 	}
+	res.json()
 }
