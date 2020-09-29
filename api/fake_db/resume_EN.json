@@ -1,0 +1,34 @@
+{
+	"data": [
+			{
+				"id" : 1,
+				"subtitle" : "Work Experience",
+				"text" : "lorem impsun ..."
+			},
+			{
+				"id" : 2,
+				"subtitle" : "Formation",
+				"text" : "lorem impsun ..."
+			},
+			{
+				"id": 3,
+				"subtitle" : "Hard skills",
+				"text" : "lorem impsun ..."
+			},
+			{
+				"id": 4,
+				"subtitle" : "Soft skills",
+				"text": "lorem impsun ..."
+			},
+			{
+				"id": 5,
+				"subtitle" : "Objetives",
+				"text": "lorem impsun ..."
+			},
+			{
+				"id": 6,
+				"subtitle" : "Why should you hire me",
+				"text": "lorem impsun ..."
+			}
+	]
+}
