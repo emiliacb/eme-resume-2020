@@ -68,7 +68,7 @@
 }
 
 @media print {
-	.darkmode {
+	.darkmode,.linkContainer {
 		display: none;
 		overflow: hidden;
 	}
@@ -86,6 +86,12 @@
 @media (min-width: 800px) {
 	.title {
 		font-size: 50px;
+	}	
+	.link:nth-child(1):after {
+		content: 'lish'
+	}
+	.link:nth-child(2):after {
+		content: 'añol'
 	}
 	.darkmode {
 		border: 3px solid var(--stroke);

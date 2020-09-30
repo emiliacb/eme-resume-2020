@@ -20,13 +20,6 @@
 	font-size: 1.1em;
 }
 
-.closed:hover {
-		animation-name: dance;
-	  	animation-duration: 0.3s;
-	  	animation-delay: 0s;
-	  	animation-iteration-count: infinite;
-}
-
 .containerContacto {
 	display: flex;
 	flex-direction: column;
@@ -43,7 +36,9 @@
 	margin: auto;
 	margin: 1vh 0 1vh 0;
 	border: none;
-	box-shadow: 0 0 3px 1px var(--stroke);
+	box-shadow: 0 0 3px 1px black;
+	font-family: consolas;
+	background-color: white;
 }
 
 
@@ -53,12 +48,13 @@
 
 .name {
 	width: 50vw;
+	max-width: 300px;
 	min-height: 2em;
-	max-width: 80%;
 }
 
 .text {
 	width: 70vw;
+	max-width: 500px;
 	resize: none;
 	overflow: scroll;
 	height: 30vh;
@@ -204,6 +200,13 @@
 		padding: 10px;
 	}
 
+	.closed:hover {
+			animation-name: dance;
+		  	animation-duration: 0.3s;
+		  	animation-delay: 0s;
+		  	animation-iteration-count: infinite;
+	}
+
 	.closed {
 		cursor: pointer;
 	  	writing-mode: vertical-lr;
@@ -228,5 +231,12 @@
 
 	.open {
 		padding: 50px;
+	}
+}
+
+@media print {
+	.contact {
+		display: none;
+		overflow: hidden;
 	}
 }

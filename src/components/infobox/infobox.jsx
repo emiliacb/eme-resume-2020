@@ -7,7 +7,7 @@ function Infobox({color,subtitle,text}) {
 					<div className={`${style.divisionBar} bgColor${color} `}></div>
 					<h2 className={style.subtitle}>{subtitle}</h2>
 					<div className={style.content}>
-					<p className={style.text}>{text}</p>
+					<div className={style.text}>{text}</div>
 			        </div>
 				</section>
 	)

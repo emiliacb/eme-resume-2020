@@ -6,8 +6,7 @@ import style from './navbar.module.css';
 const Navbar = ({darkMode}) => {
 
 	const [dark,setDark] = useState('darkOff')
-	const [currentLang, setCurrentLang] = useState('')
-
+	
 	const handleDark = e => {
 		setDark(dark === 'darkOff' ? 'darkOn' : 'darkOff')
 	}
@@ -20,7 +19,7 @@ const Navbar = ({darkMode}) => {
 
 	return (
 		<nav className={style.navbar}>
-		<header><h1 className={style.title}>Fullstack Developer</h1></header>
+		<header><Link to="/"><h1 className={style.title}>Fullstack Developer</h1></Link></header>
 		<div className={style.darkmodeContainer}>
 			<label  htmlFor="darkmode" className={`${style.darkmode} ${style[dark]}`} >
 			</label>

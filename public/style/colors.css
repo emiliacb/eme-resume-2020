@@ -52,7 +52,7 @@
 
 @media print {
 	:root {
-		--app-bg: var(--light);
-		--stroke: var(--darkStroke);
+		--app-bg: white !important;
+		--stroke: black !important;
 	}
 }

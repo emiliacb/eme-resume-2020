@@ -2,7 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect,
 } from "react-router-dom";
 import Home from './components/home/home.jsx';
 import Navbar from './components/navbar/navbar.jsx';
@@ -12,15 +13,19 @@ function App() {
 		return (
 			<Router>
 			<div className="App">
-				<Navbar path="/"/>
 				    <Switch>
-						<Route path="/en_US">
+						<Route exact path="/">
+							<Redirect to="/en_US" />
+					  	</Route>
+					  	<Route exact path="/en_US">
+					  		<Navbar lang={'EN'}/>
 					    	<Home lang={'EN'}/>
 					    	<Contact lang={'EN'}/>
 					  	</Route>
 						<Route path="/es_AR">
-						    <Home lang={'ES'} />
-						    <Contact lang={'ES'} />
+							<Navbar lang={'ES'}/>
+						    <Home lang={'ES'}/>
+						    <Contact lang={'ES'}/>
 					  	</Route>
 				  	</Switch>
 			</div>
