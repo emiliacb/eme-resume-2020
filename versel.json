@@ -1,5 +1,5 @@
 {
   "env": {
-    "REACT_APP_URL": "em3reactpage"
+    "REACT_APP_URL": "https://em3reactpage.vercel.app/"
   }
 }
