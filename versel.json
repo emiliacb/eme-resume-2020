@@ -1,0 +1,5 @@
+{
+  "env": {
+    "REACT_APP_URL": "em3reactpage"
+  }
+}
