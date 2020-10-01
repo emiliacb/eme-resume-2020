@@ -6,12 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### I used the following tecnologies:
 
 - HTML, CSS and GIT of course
+- [Interweave to parse string to html](https://interweave.dev/docs/)
+- Css modules, root variables, pseudoclasses, selectors.
+- Javascript ES6
 - React.js
 - React-router-dom
 - Axios
-- Serverless Api
-- A script by https://github.com/dwyl/ for the contact form, 
+- Serverless Api in vercel
+- A script by [DWYL](https://github.com/dwyl/) for the contact form, 
 I only use the script, the function that he share is not compatible with react
-- Interweave to parse string to html https://interweave.dev/docs/
+
+
 
 
