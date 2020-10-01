@@ -34,4 +34,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
   
 ### Other credits
-  - The print logo was from [flaticon](https://flaticon.es), design by [DinosoftLabs] (https://www.flaticon.es/autores/dinosoftlabs)
+  - The print logo was from [flaticon](https://flaticon.es), design by [DinosoftLabs](https://www.flaticon.es/autores/dinosoftlabs)
