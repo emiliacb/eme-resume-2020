@@ -11,5 +11,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Axios
 - Serverless Api
 - A script by https://github.com/dwyl/ for the contact form
+- Interweave to parse string to html https://interweave.dev/docs/
 
 
