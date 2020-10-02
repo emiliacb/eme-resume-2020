@@ -1,4 +1,3 @@
-
 .navbar {
 	display: flex;
 	align-content: flex-end;
@@ -8,38 +7,31 @@
 	padding: 4vw 0 0 3vw;
 	width: calc(100% - 4vw);
 }
-
 .title {
 	font-family: var(--title);
 	color: var(--stroke);
 	font-size: 5vmax;
 }
-
 .linkContainer {
 	display: flex;
 	flex-direction: column;
 }
-
 .link {
 	margin: 10px;
 	color: var(--stroke);
 	font-family: var(--title);
 }
-
 .link:hover {
 	text-transform: uppercase;
 }
-
 .darkmodeContainer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
 .input {
 	display: none;
 }
-
 .darkmode {
 	width: 70px;
 	max-width: 7vmax;
@@ -49,14 +41,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	margin-right: 10vw;
+	margin-right: 3vw;
+	margin-left: 10px;
 	overflow: hidden;
 }
-
 .darkOn {
 	justify-content: flex-end;
 }
-
 .darkmode:before {
 	content: '';
 	border-radius: 25px;
@@ -68,9 +59,37 @@
 }
 
 @media print {
-	.darkmode,.linkContainer {
+	.darkmode,.linkContainer,.printLogo,.btnPrint {
 		display: none;
 		overflow: hidden;
+	}
+	.title {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 550px) {
+	.printLogo,.btnPrint {
+		display: none;
+	}
+}
+
+@media (min-width: 550px) {
+	.printLogo,.btnPrint {
+		display: auto;
+	}
+	.btnPrint, .btnPrint:focus{
+		border: none;
+		outline: none;
+		background-color: transparent;
+	}
+	.printLogo {
+		width: 3vw;
+		min-width: 40px;
+		filter: var(--print)
+	}
+	.printLogo:hover {
+		transform: rotate(180deg);
 	}
 }
 

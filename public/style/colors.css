@@ -15,6 +15,7 @@
 --app-bg: var(--light);
 --stroke: var(--darkStroke);
 --attention: tomato;
+--print: invert(0%);
 }
 
 /*<==== Class colors*/

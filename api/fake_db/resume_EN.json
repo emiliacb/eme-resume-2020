@@ -29,6 +29,11 @@
 				"id": 6,
 				"subtitle" : "Why should you hire me",
 				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
+			},
+			{
+				"id": 7,
+				"subtitle" : "",
+				"text": "<footer><i class='resume_signature'>by Emilia Cabral Benítez</i> <a target='_blank' href='https://github.com/Em3c2/em3reactpage'>> Github repository</a></footer>"
 			}
 	]
 }

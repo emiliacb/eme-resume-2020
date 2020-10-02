@@ -12,7 +12,7 @@
 }
 
 .h2Contact {
-	font-size: 1.4em;
+	font-size: 1.1em;
 	font-family: var(--subtitle)
 }
 
@@ -32,17 +32,18 @@
 	align-items: flex-end;
 }
 
-.form input,textarea {
+.form .name,.text,.submit {
 	margin: auto;
 	margin: 1vh 0 1vh 0;
 	border: none;
 	box-shadow: 0 0 3px 1px black;
 	font-family: consolas;
 	background-color: white;
+	padding-left: 5px;
 }
 
 
-.form input:focus {
+.form .name:focus, .text:focus, .submit:focus {
 	outline: none;
 }
 
@@ -97,7 +98,6 @@
 	margin: 40px 200px 0 0;
 }
 
-
 .btnClose {
 	width: 40px;
 	height: 3px;
@@ -109,6 +109,7 @@
 	border-radius: 10px;
 	transform: scale(0.8) rotate(45deg);
 	margin: 30px 50px 0 0;
+	box-shadow: none;
 	cursor: pointer;
 }
 
@@ -141,6 +142,18 @@
 .btnClose:hover {
 	transition: 1s;
 	transform: scale(1.1) rotate(1deg);
+}
+
+.btnContainer {
+	display: flex;
+	align-items: center;
+}
+
+.confirm {
+	font-size: 1.4em;
+	font-family: consolas;
+	color: var(stroke);
+	margin-right: 10px;
 }
 
 @media (max-width: 950px) {

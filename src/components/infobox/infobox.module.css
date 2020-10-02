@@ -1,5 +1,5 @@
 .container{
-text-align: left;
+	text-align: left;
 }
 .subtitle {
 	align-self: flex-end;
@@ -11,7 +11,6 @@ text-align: left;
 .divisionBar {
 	display: flex;
 	height: 1.5vw;
-	margin: 1vw 0 1vw 0;
 	max-width: 800px;
 	width: 95vw;
 }
@@ -19,9 +18,7 @@ text-align: left;
 	font-family: var(--content);
 	font-size: 2.5vw;
 	color: var(--stroke);
-	margin: 3vw 0 3vw 0;
 }
-
 .text {
 	max-width: 80% !important;
 	margin: auto;
@@ -46,5 +43,29 @@ text-align: left;
 	}
 	.content {
 		font-size: 18px;
+	}
+}
+
+@media screen {
+	.content {
+		margin: 3vw 0 3vw 0;
+	}
+	.divisionBar {
+		margin: 1vw 0 1vw 0;
+	}
+}
+
+@media print {
+	.subtitle {
+		font-size: 15px;
+	}
+	.content {
+		font-size: 13px;
+	}
+	.divisionBar {
+		margin: 3px 0 3px 0;
+	}
+	.content {
+		margin: 3px 0 3px 0;
 	}
 }
