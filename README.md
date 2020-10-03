@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## My personal website 
 ## https://eme-resume.vercel.app/
 
+![preview](/public//preview.png)
+
 ### What you can do:
 
 - Change the colors in a darkmode like function
