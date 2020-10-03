@@ -23,6 +23,16 @@
 	margin-left: 30px;
 }
 
+.text a {
+	color: var(--attention);
+	font-size: 1em;
+}
+
+.text a:hover {
+	text-transform: uppercase;
+	color: var(--stroke)
+}
+
 @media (max-width: 550px) not print {
 	.container {
 		max-width: 90%;

@@ -130,10 +130,10 @@
 .confirm {
 	font-size: 1em;
 	font-family: consolas;
-	color: var(stroke);
+	color: var(--stroke);
 	margin-right: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 799.9px) {
 	.contact {
 		right: 0;
 		left: 0;

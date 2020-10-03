@@ -3,6 +3,7 @@ import Loading from '../loading/loading.jsx';
 import axios from 'axios';
 import Infobox from '../infobox/infobox.jsx';
 import style from './home.module.css';
+import qr from '../../media/qr-code.svg'
 
 const URL = process.env.REACT_APP_URL;
 
@@ -52,6 +53,8 @@ function Home({lang}) {
 							if (e.side === 'right')	return <Infobox color={'Right'} subtitle={e.subtitle} text={e.text} />
 						})
 					}
+					<img className={style.qr} src={qr} alt='QR code' />
+					<i className={style.webVersion}>{ lang === 'EN' ? ' Web Version' : ' Versión Web'}</i>
 				</div>
 			</div>
 		</section>
