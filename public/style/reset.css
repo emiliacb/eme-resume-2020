@@ -34,7 +34,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: square;
+	list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -51,4 +51,17 @@ table {
 a{
 	text-decoration: none;
 	color: inherit;
+}
+
+ul {
+	text-indent: 50px;
+}
+
+br {
+	padding: 0px;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
 }

@@ -10,25 +10,19 @@
 				"id" : 3,
 				"side": "left",
 				"subtitle" : "Educación",
-				"text" : "<ul>Cursando: <p><br /><br /></p>- Gestión de tecnologías de la información – UNPAZ – (2020 - ) <p><br /></p>- Henry Bootcamp – (700 hs) <p><p><br /></p>Algoritmos,<p><br /></p> estructuras de datos,<p><br /></p> React,<p><br /></p> Redux,<p><br /></p> Node,<p><br /></p> Express,<p><br /></p> Postgres,<p><br /></p> Sequalize,<p><br /></p> Passport,<p><br /></p> Webpack,<p><br /></p></p><p><br /><br /></p>Finalizado :<p><br /><br /></p><p>-FrecodeCamp (300 hs) <p><br /></p>- Javascript Algoritms and data structures - </p><p><br /></p><p>- Bibliotecario/a de instituciones educativas, ISFT 182 (2016 – 2019)</p><p><p><br /></p>En esta formación aprendí a buscar información en forma profesional, organizarla eficazmente y compartirla. Y también tuve todo un tramo pedagógico, donde vi psicología y didáctica, creo que son herramientas útiles para los grupos de trabajo.</p><p><br /><br /></p> Abandonado : <p> <p><br /><br /></p>-Profesorado Universitario de literatura (2 años)</p> <p>Fue una experiencia que me inició en la literatura y la pedagogía. Y también en la escritura académica.</p></ul>"
+				"text" : "Cursando: <br />- Gestión de tecnologías de la información – UNPAZ – (2020 - )<ul><li>Algoritmos en C</li></ul>- Henry Bootcamp – (700 hs) <p><ul className='resume_list'><li>Algoritmos, estructuras de datos,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Finalizado :<br />-  FrecodeCamp (300 hs) <ul>Algoritmos y estructuras de datos en javascript</ul>- Bibliotecario/a de instituciones educativas, ISFT 182 <p>En esta formación aprendí a buscar información en forma profesional, curarla y compartirla. Además vi en profundidad psicología y didáctica.</p><br /> Abandonado : <br />-Profesorado Universitario de literatura (2 años)<br /><ul>Fue una experiencia que me inició en la pedagogía, y la lectura académica.</ul>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
-				"subtitle" : "Hi!",
-				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
-			},
-			{
-				"id" : 5,
-				"side": "left",
-				"subtitle" : "Hi!",
-				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
+				"subtitle" : "Experiencia laboral",
+				"text" : ""
 			},
 			{
 				"id" : 6,
 				"side": "right",
 				"subtitle" : "Info",
-				"text" : "<ul><li><strong>Nombre : </strong> Emilia Cabral Benitez</li> <li><strong>CUIL :</strong> 20-38709622-2 </li> <li><strong>Dirección : </strong> José C. Paz,  Buenos Aires,  Argentina</li> <li><strong>Celu:</strong>  +541128719459</li> <li><strong>Email:</strong>  emiliacabralb@gmail.com</li> <li><strong>Fecha de nacimiento:</strong>  12/12/94</li> <ul>"
+				"text" : "<ul><li><strong>Nombre : </strong> <br />Emilia Cabral Benitez</li> <li><strong>CUIL :</strong> <br />20-38709622-2 </li> <li><strong>Dirección : </strong><br /> José C. Paz,  Buenos Aires,  Argentina</li> <li><strong>Celu:</strong>  <br />+541128719459</li> <li><strong>Email:</strong>  <br />emiliacabralb@gmail.com</li> <li><strong>Fecha de nacimiento:</strong>  <br />12/12/94</li> <ul>"
 			},
 			{
 				"id" : 7,

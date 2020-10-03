@@ -4,31 +4,25 @@
 				"id" : 2,
 				"side": "left",
 				"subtitle" : "Hi!",
-				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. But I'm eager to learn!"
+				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. But I'm eager to learn!<br />"
 			},
 			{
 				"id" : 3,
 				"side": "left",
-				"subtitle" : "Hi!",
-				"text" : " <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
+				"subtitle" : "Education",
+				"text" : "In course: <br />- Information tecnologies management – UNPAZ – (2020 - )<ul><li>Algoritms in C</li></ul>- Henry Bootcamp – (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Finalizado :<br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course I learned the best practices to seek, manage, curate and share information. I also incorporate a big pedagogics and psicology background knoledge</ul><br /> Deserted : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
-				"subtitle" : "Hi!",
-				"text" : "</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
-			},
-			{
-				"id" : 5,
-				"side": "left",
-				"subtitle" : "Hi!",
-				"text" : "<strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
+				"subtitle" : "Work experiencie",
+				"text" : ""
 			},
 			{
 				"id" : 6,
 				"side": "right",
 				"subtitle" : "Info",
-				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> 20-38709622-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, <br />Argentina</li><br /><li><strong>Phone:</strong> <br />+541128719459</li><br /><li><strong>Email:</strong> <br />emiliacabralb@gmail.com</li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul>"
+				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> <br />20-38709622-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, <br />Argentina</li><br /><li><strong>Phone:</strong> <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=541128719459&text=Hi%20Emilia!'>+541128719459</a></li><br /><li><strong>Email:</strong> <br /><a href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul><br /><br /><br />"
 			},
 			{
 				"id" : 7,

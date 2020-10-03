@@ -33,7 +33,7 @@ strong {
 }
 
 
-@media (min-width: 800px) not print {	
+@media (min-width: 800px) {	
 	.containerResume {
 		flex-direction: row;
 		margin: auto;
@@ -93,7 +93,7 @@ strong {
 		position: absolute;
 		width: 150px;
 		height: 150px;
-	    top: 780px;
+	    top: 765px;
 	    left: 440px;
 	    border: 1px solid white;
 	    border-width: 0 0 0 100px;
@@ -116,4 +116,11 @@ strong {
 	.webVersion {
 		display: none
 	}
+}
+
+@media print {
+ 	.containerResume {
+ 		margin-top: -70px;
+ 	}
+	
 }

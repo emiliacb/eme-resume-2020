@@ -1,7 +1,6 @@
 import React from 'react';
 import { Markup } from 'interweave';
 import style from './infobox.module.css';
-import './resume.css';
 
 function Infobox({color,subtitle,text}) {
 	return (
