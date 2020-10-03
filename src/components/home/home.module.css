@@ -5,6 +5,7 @@
 	margin: auto;
 	max-width: 1000px;
 	padding: 10px;
+	margin-top: 30px;
 }
 
 .column {
@@ -32,11 +33,11 @@ strong {
 }
 
 
-@media (min-width: 800px) {	
+@media (min-width: 800px) not print {	
 	.containerResume {
 		flex-direction: row;
 		margin: auto;
-		margin-top: 100px;	
+		margin-top: 40px;	
 	}
 	.column:nth-child(1){
 		width: 50%
@@ -77,7 +78,7 @@ strong {
 		width: 330px;
 		height: 330px;
 		align-self: center;
-		margin-left: 40px;
+		margin-left: 20px;
 		margin-bottom: 20px;
 		background-image: url('../../media/foto.png');
 	}
@@ -92,7 +93,7 @@ strong {
 		position: absolute;
 		width: 150px;
 		height: 150px;
-	    top: 800px;
+	    top: 780px;
 	    left: 440px;
 	    border: 1px solid white;
 	    border-width: 0 0 0 100px;
