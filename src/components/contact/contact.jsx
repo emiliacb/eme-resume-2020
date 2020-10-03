@@ -7,13 +7,14 @@ import style from './contact.module.css';
 const Contact = ({lang}) => {
 
 	const [contacto, setContacto] = useState('closed'); //visibility
+	const [sending, setSending] = useState(false)
 	const [message, setMessage] = useState({
 		name: '',
 		email: '',
 		message: '',
 		honeypot: '',
 	})
-	const [confirm, setConfirm] = useState(null)
+	const [confirm, setConfirm] = useState(true)
 	
 	const handleClickOpen = e => {
 		e.preventDefault();
@@ -30,8 +31,10 @@ const Contact = ({lang}) => {
 
 	const handleSubmit = e => {
 		e.preventDefault();
+		if (sending) return;
+		setSending(true)
 		setConfirm('loading');
-		const scriptUrl = 'https://script.google.com/macros/s/AKfycby5bQpyQnJEjOGqjMGJcNopE_4SRmI3lswBK9OWESehpEUTWRM/exec';
+		const scriptUrl = 'https:/\/script.google.com/macros/s/AKfycby5bQpyQnJEjOGqjMGJcNopE_4SRmI3lswBK9OWESehpEUTWRM/exec';
 		const data = JSON.stringify(message);
 		const config = {
 			headers: {
@@ -47,6 +50,7 @@ const Contact = ({lang}) => {
 	    	setConfirm(true)
 	    	console.log(err)
 	    })
+	    setSending(false)
 	}
 
 	const handleChange = e =>{
@@ -69,8 +73,14 @@ const Contact = ({lang}) => {
 				{
 					contacto === 'open' &&
 					<div className={style.containerContacto}>
-						<Infobox subtitle={'Title'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti.'} />
-						
+						{
+						lang === 'ES' &&
+						<Infobox subtitle={'Charlemos!'} text= {'Me encantaría hablar con vos.<br />Desde este formulario la página me envía un email directamente a mi correo.<br /> Podés ponerlo a prueba escribiéndome un mensajito para que te responda. '}/>
+						}
+						{
+						lang === 'EN' &&
+						<Infobox subtitle={'Let\'s talk!'} text= {'I woud love to talk with you.<br />Through this form you can email-me.<br />You can test it sending to me a little message '}  />
+						}
 						<form 
 									className={`${style.form}`}
 									onSubmit={handleSubmit}

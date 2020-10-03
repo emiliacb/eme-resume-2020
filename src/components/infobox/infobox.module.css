@@ -10,30 +10,31 @@
 }
 .divisionBar {
 	display: flex;
-	height: 1.5vw;
-	max-width: 800px;
-	width: 95vw;
+	height: 10px;
+	width: 100%;
 }
 .content {
 	font-family: var(--content);
-	font-size: 2.5vw;
 	color: var(--stroke);
-}
-.text {
-	max-width: 80% !important;
 	margin: auto;
 }
 
-@media (max-width: 550px) {
+.text {
+	margin: auto;
+	margin-left: 30px;
+}
+
+@media (max-width: 550px) not print {
+	.container {
+		max-width: 90%;
+		margin: auto;
+	}
 	.subtitle {
 		font-size: 3vh;
 	}
-	.divisionBar {
-		height: 1.5vh;
-		width: 98vw;
-	}
 	.content {
-		font-size: 3vmax;
+		font-size: 1.2em;
+		max-width: 90%;
 	}
 }
 
@@ -43,6 +44,7 @@
 	}
 	.content {
 		font-size: 18px;
+		max-width: 90%;
 	}
 }
 
@@ -56,16 +58,21 @@
 }
 
 @media print {
-	.subtitle {
-		font-size: 15px;
-	}
-	.content {
-		font-size: 13px;
+	.container {
+		width: 400px;
+		margin-top: 30px;
 	}
 	.divisionBar {
-		margin: 3px 0 3px 0;
+		height: 10px;
+		width: 300px;
+		border-radius: 0 100% 0 0;
+		margin-top: 30px;
 	}
-	.content {
-		margin: 3px 0 3px 0;
+	.subtitle {
+		margin-top: 10px;
+		font-size: 22px;
+	}
+	.text {
+		font-size: 18px;
 	}
 }

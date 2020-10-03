@@ -2,38 +2,39 @@
 	"data": [
 			{
 				"id" : 1,
-				"subtitle" : "Experiencia laboral",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
+				"side": "left",
+				"subtitle" : "Hola!",
+				"text" : "Soy Emilia, una desarrolladora de <strong>Javascript</strong> junior, con fluidez tanto en <strong>frontend</strong> como en <strong>backend</strong>. Uso principalmente <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> y <strong>Sequalize</strong>. Pero me encanta aprender, te invito a poner a prueba mi resiliencia."
 			},
 			{
 				"id" : 2,
-				"subtitle" : "Capacitaciones",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
+				"side": "left",
+				"subtitle" : "Hi!",
+				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			},
 			{
-				"id": 3,
-				"subtitle" : "Habilidades tecnicas",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
+				"id" : 3,
+				"side": "left",
+				"subtitle" : "Hi!",
+				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			},
 			{
-				"id": 4,
-				"subtitle" : "Habilidades sociales",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
+				"id" : 4,
+				"side": "left",
+				"subtitle" : "Hi!",
+				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			},
 			{
-				"id": 5,
-				"subtitle" : "Objetivos",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
+				"id" : 5,
+				"side": "right",
+				"subtitle" : "Info",
+				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			},
 			{
-				"id": 6,
-				"subtitle" : "Por qué contratarme",
-				"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum dapibus ultricies. Suspendisse potenti. Donec quis sapien lorem. Proin est ex, finibus in mollis in, blandit a libero. Vivamus imperdiet tincidunt diam, a elementum odio consectetur sit amet. Fusce a dignissim libero, eu tristique risus. Quisque sapien enim, suscipit eget enim non, pellentesque tincidunt ipsum."
-			},
-			{
-				"id": 7,
-				"subtitle" : "",
-				"text": "<footer><i class='resume_signature'>by Emilia Cabral Benítez</i> <a target='_blank' href='https://github.com/Em3c2/em3reactpage'>> Repositorio de Github</a></footer>"
+				"id" : 6,
+				"side": "right",
+				"subtitle" : "Info",
+				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			}
 	]
 }

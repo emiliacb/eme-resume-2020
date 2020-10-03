@@ -4,34 +4,28 @@
 	50% {transform: rotate(-5deg);}
 	100% {transform: rotate(5deg);}
 }
-
 .contact {
 	background-color: var(--attention);
 	color: var(--stroke);
 	position: fixed;
 }
-
 .h2Contact {
 	font-size: 1.1em;
 	font-family: var(--subtitle)
 }
-
 .contact i {
 	font-size: 1.1em;
 }
-
 .containerContacto {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
 .form{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
-
 .form .name,.text,.submit {
 	margin: auto;
 	margin: 1vh 0 1vh 0;
@@ -41,18 +35,14 @@
 	background-color: white;
 	padding-left: 5px;
 }
-
-
 .form .name:focus, .text:focus, .submit:focus {
 	outline: none;
 }
-
 .name {
 	width: 50vw;
 	max-width: 300px;
 	min-height: 2em;
 }
-
 .text {
 	width: 70vw;
 	max-width: 500px;
@@ -60,31 +50,26 @@
 	overflow: scroll;
 	height: 30vh;
 }
-
 .text:focus {
 	outline: none;
 }
-
 .submit {
 	max-width: 200px;
 	max-height: 30px;
 	width: 50vw;
 	height: 10vw;
 	border: none;
-	font-family: consolas;
+	font-family: var(--content), consolas;
 	font-size: 1em;
 	background-color: transparent;
 }
-
 .submit:hover {
 	transform: scale(0.95);
 	text-transform: uppercase;
 }
-
 .submit:active {
 	background-color: white;
 }
-
 .open {
 	height: 100%;
 	width: 100%;
@@ -92,12 +77,10 @@
 	background-color: var(--attention);
 	text-align: right;
 }
-
 .open .h2Contact{
 	margin-top: 20px;
 	margin: 40px 200px 0 0;
 }
-
 .btnClose {
 	width: 40px;
 	height: 3px;
@@ -112,7 +95,6 @@
 	box-shadow: none;
 	cursor: pointer;
 }
-
 .btnClose:before {
 	content: '';
 	position: absolute;
@@ -124,7 +106,6 @@
 	transform: rotate(90deg);
 	background-color: var(--stroke);
 }
-
 .btnClose:after {
 	content: '';
 	position: absolute;
@@ -134,36 +115,30 @@
 	width: 60px;
 	height: 60px;
 }
-
 .btnClose:focus {
 	outline: none;
 }
-
 .btnClose:hover {
 	transition: 1s;
 	transform: scale(1.1) rotate(1deg);
 }
-
 .btnContainer {
 	display: flex;
 	align-items: center;
 }
-
 .confirm {
-	font-size: 1.4em;
+	font-size: 1em;
 	font-family: consolas;
 	color: var(stroke);
 	margin-right: 10px;
 }
-
-@media (max-width: 950px) {
+@media (max-width: 600px) {
 	.contact {
 		right: 0;
 		left: 0;
 		bottom: 0;
 		margin: auto;
 	}
-
 	.closed {
 		cursor: pointer;
 		text-align: center;
@@ -175,7 +150,6 @@
 	  	animation-iteration-count: 5;
 	  	padding: 5px;
 	}
-
 	.closed:before {
 		content: '';
 		width: 200vw;
@@ -184,9 +158,8 @@
 		position: absolute;
 		right: 0;
 		left: -50vw;
-		bottom: -20vw;
+		bottom: -50vw;
 	}
-
 	.open {
 		width: 100%;
 		height: 100%;
@@ -204,7 +177,7 @@
 	}
 }
 
-@media (min-width: 950px) {
+@media (min-width: 600px) {
 	.contact {
 		left: 0;
 		bottom: 0;
@@ -212,14 +185,12 @@
 		margin: auto;
 		padding: 10px;
 	}
-
 	.closed:hover {
-			animation-name: dance;
-		  	animation-duration: 0.3s;
-		  	animation-delay: 0s;
-		  	animation-iteration-count: infinite;
+		animation-name: dance;
+	  	animation-duration: 0.3s;
+	  	animation-delay: 0s;
+	  	animation-iteration-count: infinite;
 	}
-
 	.closed {
 		cursor: pointer;
 	  	writing-mode: vertical-lr;
@@ -231,17 +202,15 @@
 	  	animation-delay: 5s;
 	  	animation-iteration-count: 5;
 	}
-
 	.closed:before {
 		content: '';
-		height: 100vw;
+		height: 200vw;
 		width: 10vw;
 		background-color: var(--attention);
 		position: absolute;
 		left: -9.5vw;
 		top: -50vw;
 	}
-
 	.open {
 		padding: 50px;
 	}

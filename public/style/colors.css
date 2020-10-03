@@ -16,6 +16,7 @@
 --stroke: var(--darkStroke);
 --attention: tomato;
 --print: invert(0%);
+--pixel: sepia(0%);
 }
 
 /*<==== Class colors*/
@@ -48,6 +49,9 @@
 	background-color: var(--color7)
 }
 
+.bgColorRight{
+	background-color: var(--attention)
+}
 
 /*<==== Printable colors*/
 

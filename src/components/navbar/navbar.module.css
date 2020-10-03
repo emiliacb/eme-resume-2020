@@ -58,16 +58,6 @@
 	background-color: var(--attention);
 }
 
-@media print {
-	.darkmode,.linkContainer,.printLogo,.btnPrint {
-		display: none;
-		overflow: hidden;
-	}
-	.title {
-		font-size: 30px;
-	}
-}
-
 @media (max-width: 550px) {
 	.printLogo,.btnPrint {
 		display: none;
@@ -120,3 +110,13 @@
 	}
 }
 
+@media print {
+	.darkmode,.linkContainer,.printLogo,.btnPrint {
+		display: none;
+		overflow: hidden;
+	}
+	.title {
+		font-size: 40px;
+		margin-bottom: 50px;
+	}
+}
