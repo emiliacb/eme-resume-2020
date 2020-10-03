@@ -10,13 +10,13 @@
 				"id" : 3,
 				"side": "left",
 				"subtitle" : "Educación",
-				"text" : "Cursando: <br />- Gestión de tecnologías de la información – UNPAZ – (2020 - )<ul><li>Algoritmos en C</li></ul>- Henry Bootcamp – (700 hs) <p><ul className='resume_list'><li>Algoritmos, estructuras de datos,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Finalizado :<br />-  FrecodeCamp (300 hs) <ul>Algoritmos y estructuras de datos en javascript</ul>- Bibliotecario/a de instituciones educativas, ISFT 182 <p>En esta formación aprendí a buscar información en forma profesional, curarla y compartirla. Además vi en profundidad psicología y didáctica.</p><br /> Abandonado : <br />-Profesorado Universitario de literatura (2 años)<br /><ul>Fue una experiencia que me inició en la pedagogía, y la lectura académica.</ul>"
+				"text" : "Cursando: <br />- Gestión de tecnologías de la información, UNPAZ (2020)<ul><li>Algoritmos en C</li></ul>- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritmos, estructuras de datos,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Finalizado :<br />-  FrecodeCamp (300 hs) <ul>Algoritmos y estructuras de datos en javascript</ul>- Bibliotecario/a de instituciones educativas, ISFT 182 (3 años) <p>En esta formación aprendí a buscar información en forma profesional, curarla y compartirla. Además vi en profundidad psicología y didáctica.</p><br /> Abandonado : <br />-Profesorado Universitario de literatura (2 años)<br /><ul>Fue una experiencia que me inició en la pedagogía, y la lectura académica.</ul>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
 				"subtitle" : "Experiencia laboral",
-				"text" : ""
+				"text" : "- Tutora en Henry (desde septiempre 2020) <p>Doy clases extra de los temas de cada clase, resuelvo dudas y doy apoyo moral </p>- Ayudante de cátedra en ISFT 182 (desde marzo 2020) <p>Ofrecí dos talleres sobre gamificación y uso de videojuegos para bibliotecas</p>- Suplencias en bibliotecas escolares (2017 a 2019) <br /> <p>Esta experiencia me enseñó mucho a trabajar en equipos grandes de personas con diferentes ideas y a manejar grupos. En las escuelas leí cuentos y armar talleres, todas las semanas, tanto en primarias como secundarias. </p>"
 			},
 			{
 				"id" : 6,

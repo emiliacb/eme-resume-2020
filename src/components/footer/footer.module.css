@@ -1,0 +1,19 @@
+.footer {
+	margin-top: 100px;
+	text-align: center;
+	font-family: var(--signature), consolas;
+	font-size: 1.6em;
+	color: var(--attention);
+}
+
+.repo {
+	font-family: var(--title), consolas;
+	font-size: 0.5em;
+	color: var(--stroke	)
+}
+
+@media print {
+	.footer {
+		display: none
+	}
+}

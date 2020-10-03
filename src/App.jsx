@@ -8,6 +8,7 @@ import {
 import Home from './components/home/home.jsx';
 import Navbar from './components/navbar/navbar.jsx';
 import Contact from './components/contact/contact.jsx';
+import Footer from './components/footer/footer.jsx';
 
 function App() {
 		return (
@@ -28,6 +29,7 @@ function App() {
 						    <Contact lang={'ES'}/>
 					  	</Route>
 				  	</Switch>
+				  	<Footer />
 			</div>
 			</Router>
 		)

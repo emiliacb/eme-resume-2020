@@ -53,15 +53,18 @@ a{
 	color: inherit;
 }
 
+/*Config*/
+
 ul {
 	text-indent: 50px;
 }
-
 br {
 	padding: 0px;
 }
-
 p {
 	text-align: justify;
 	text-indent: 50px;
+}
+strong {
+	font-weight: bold;
 }
