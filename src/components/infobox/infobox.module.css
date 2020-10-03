@@ -4,7 +4,6 @@
 .subtitle {
 	align-self: flex-end;
 	font-family: var(--subtitle);
-	font-size: 3.3vw;
 	color: var(--stroke);
 	margin-right: 60px;
 }
@@ -30,7 +29,7 @@
 		margin: auto;
 	}
 	.subtitle {
-		font-size: 3vh;
+		font-size: 15px;
 	}
 	.content {
 		font-size: 1.2em;

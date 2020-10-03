@@ -33,8 +33,8 @@
 			{
 				"id" : 7,
 				"side": "right",
-				"subtitle" : "Info",
-				"text" : "<strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
+				"subtitle" : "Links",
+				"text" : "<ul><li><a target='_blank' href='https://github.com/Em3c2'/>GitHub</a></li><li><a target='_blank' href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><a target='_blank' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
 			}
 	]
 }

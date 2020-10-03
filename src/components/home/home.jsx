@@ -3,7 +3,6 @@ import Loading from '../loading/loading.jsx';
 import axios from 'axios';
 import Infobox from '../infobox/infobox.jsx';
 import style from './home.module.css';
-import pixel from '../../media/pixel.png'
 
 const URL = process.env.REACT_APP_URL;
 
@@ -46,7 +45,7 @@ function Home({lang}) {
 					}
 				</div>
 				<div className={style.column} >
-					<img className={style.pixel} src={pixel} alt={lang === 'EN' ? 'pixelart selfportrait' : 'retrato en pixelart'} />
+					<div className={style.pixel} alt={lang === 'EN' ? 'pixelart selfportrait' : 'retrato en pixelart'}> </div>
 					{
 						resume.data &&
 						resume.data.map( e => {

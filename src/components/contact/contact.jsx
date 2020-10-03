@@ -14,7 +14,7 @@ const Contact = ({lang}) => {
 		message: '',
 		honeypot: '',
 	})
-	const [confirm, setConfirm] = useState(true)
+	const [confirm, setConfirm] = useState(null)
 	
 	const handleClickOpen = e => {
 		e.preventDefault();
@@ -47,7 +47,7 @@ const Contact = ({lang}) => {
 	    	console.log(res.data)
 	    }) 
 	    .catch(err => {
-	    	setConfirm(true)
+	    	setConfirm(false)
 	    	console.log(err)
 	    })
 	    setSending(false)

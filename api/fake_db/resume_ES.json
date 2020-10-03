@@ -1,16 +1,10 @@
 {
 	"data": [
 			{
-				"id" : 1,
+				"id" : 2,
 				"side": "left",
 				"subtitle" : "Hola!",
 				"text" : "Soy Emilia, una desarrolladora de <strong>Javascript</strong> junior, con fluidez tanto en <strong>frontend</strong> como en <strong>backend</strong>. Uso principalmente <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> y <strong>Sequalize</strong>. Pero me encanta aprender, te invito a poner a prueba mi resiliencia."
-			},
-			{
-				"id" : 2,
-				"side": "left",
-				"subtitle" : "Hi!",
-				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			},
 			{
 				"id" : 3,
@@ -26,15 +20,21 @@
 			},
 			{
 				"id" : 5,
-				"side": "right",
-				"subtitle" : "Info",
+				"side": "left",
+				"subtitle" : "Hi!",
 				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
 			},
 			{
 				"id" : 6,
 				"side": "right",
 				"subtitle" : "Info",
-				"text" : "Im Emilia. Im a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I invite you to testing my resilience. I hope you enjoy this web that I develop to demostrate some of my skills."
+				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> 20-38709622-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, <br />Argentina</li><br /><li><strong>Phone:</strong> <br />+541128719459</li><br /><li><strong>Email:</strong> <br />emiliacabralb@gmail.com</li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul>"
+			},
+			{
+				"id" : 7,
+				"side": "right",
+				"subtitle" : "Links",
+				"text" : "<ul><li><a target='_blank' href='https://github.com/Em3c2'/>GitHub</a></li><li><a target='_blank' href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><a target='_blank' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
 			}
 	]
 }
