@@ -41,6 +41,12 @@ const Contact = ({lang}) => {
 				"Content-Type": "application/x-www-form-urlencoded",
 			}
 		}
+		setMessage({
+			name: '',
+			email: '',
+			message: '',
+			honeypot: '',
+		})
 	    axios.post(scriptUrl, data, config)
 	    .then(res => {
 	    	setConfirm(true)
@@ -90,7 +96,7 @@ const Contact = ({lang}) => {
 										className={style.name} 
 										onChange= {handleChange}
 										name="name" 
-										value={message.text}
+										value={message.name}
 										placeholder={lang === 'EN' ? "Your name" : "Tu nombre"}
 										id="name" />
 							<input 
@@ -98,12 +104,14 @@ const Contact = ({lang}) => {
 										className={style.name} 
 										name="email" 
 										onChange= {handleChange}
+										value={message.email}
 										placeholder={lang === 'EN' ? "Your email address" : "Tu email"}
 										id="email" />
 							<textarea 
 										className={style.text} 
 										name="message" 
 										onChange= {handleChange}
+										value={message.message}
 										placeholder={lang === 'EN' ? "Your message" : "Tu mensaje"}
 										id="message" />
 							<div className={style.btnContainer}>
