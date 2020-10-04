@@ -34,7 +34,7 @@
 				"id" : 8,
 				"side": "right",
 				"subtitle" : "Proyectos",
-				"text" : "<ul><li><strong>E-commerce</strong><br /><a href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>Proyecto final de Henry en metología SCRUM</a><br /><br /></li><li><strong>VisualSizer</strong><br /><a href='https://github.com/Em3c2/VisualSizer'>App para obtener el codigo para enbeber videos de Youtube, en Js Vanilla</a><br /><br /></li><li><strong>Retrato en CSS3</strong><br /><a href='https://github.com/Em3c2/portraitCSSPURE'>Hice este retrato tipo caricatura con CSS3 puro.<a></li></ul>"
+				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>Proyecto final de Henry en metología SCRUM</a><br /><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank' href='https://github.com/Em3c2/VisualSizer'>App para obtener el codigo para enbeber videos de Youtube, en Js Vanilla</a><br /><br /></li><li><strong>Retrato en CSS3</strong><br /><a target='_blank' href='https://github.com/Em3c2/portraitCSSPURE'>Hice este retrato tipo caricatura con CSS3 puro.<a></li></ul>"
 			}
 	]
 }

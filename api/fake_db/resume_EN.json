@@ -34,7 +34,7 @@
 				"id" : 8,
 				"side": "right",
 				"subtitle" : "Proyects",
-				"text" : "<ul><li><strong>E-commerce</strong><br /><a href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>SCRUM team final proyect of Henry Bootcamp</a><br /></li><li><strong>VisualSizer</strong><br /><a href='https://github.com/Em3c2/VisualSizer'>App to obtain the code to insert a Youtube video, with Js Vainila</a></li><li><strong>CSS3 portrait</strong><br /><a href='https://github.com/Em3c2/portraitCSSPURE'>I made a caricature like portrait in pure CSS flexbox (without svg)<a></li></ul>"
+				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>SCRUM team final proyect of Henry Bootcamp</a><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank' href='https://github.com/Em3c2/VisualSizer'>App to obtain the code to insert a Youtube video, with Js Vainila</a></li><li><strong>CSS3 portrait</strong><br /><a target='_blank' href='https://github.com/Em3c2/portraitCSSPURE'>I made a caricature like portrait in pure CSS flexbox (without svg)<a></li></ul>"
 			}
 	]
 }
