@@ -1,5 +1,5 @@
 .footer {
-	margin-top: 100px;
+	margin: 100px 0 30px 0;
 	text-align: center;
 	font-family: var(--signature), consolas;
 	font-size: 1.6em;

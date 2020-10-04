@@ -28,7 +28,13 @@
 				"id" : 7,
 				"side": "right",
 				"subtitle" : "Links",
-				"text" : "<ul><li><a target='_blank' href='https://github.com/Em3c2'/>GitHub</a></li><li><a target='_blank' href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><a target='_blank' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
+				"text" : "<ul><li><a target='_blank' href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
+			},
+			{
+				"id" : 8,
+				"side": "right",
+				"subtitle" : "Info",
+				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> <br />20-38709622-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, Argentina</li><li><strong>Phone:</strong> <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=541128719459&text=Hi%20Emilia!'>+541128719459</a></li><br /><li><strong>Email:</strong> <br /><a href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul><br /><br /><br />"
 			}
 	]
 }
