@@ -4,19 +4,19 @@
 				"id" : 2,
 				"side": "left",
 				"subtitle" : "Hi!",
-				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with fluency in both <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. But I'm eager to learn!<br />"
+				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with fluenly in <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I'm looking forward to keep learning<br />"
 			},
 			{
 				"id" : 3,
 				"side": "left",
 				"subtitle" : "Education",
-				"text" : "In progress: <br />- Information tecnologies management – UNPAZ – (2020 - )<ul><li>Algoritms in C</li></ul>- Henry Bootcamp – (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Completed :<br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course I learned the best practices to seek, manage, curate and share information. I also incorporate a big pedagogics and psicology background knoledge</ul><br /> Deserted : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
+				"text" : "In progress: <br />- information technology management – UNPAZ – (2020 - )<ul><li>Algoritms in C</li></ul>- Henry Bootcamp – (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Completed :<br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course I learned the best practices to seek, manage, curate and share information. I also incorporate a big pedagogics and psicology background knoledge</ul><br /> Deserted : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
 				"subtitle" : "Work experiencie",
-				"text" : "- Tutor at Henry (since September 2020) <p>I give extra classes of the topics of each class, I solve doubts and I give moral support</p>- Teaching Assistant at ISFT 182 (since March 2020)<p>I offered two workshops on gamification and use of video games for libraries</p>- Substitutions in school libraries (2017 to 2019) <br /> <p>This experience taught me a lot to work in large teams of people with different ideas and to manage groups. In schools I read tales an poetry and gived workshops, every week, both in primary and secondary schools</p>"
+				"text" : "- Tutor at Henry (since September 2020) <p>I give extra classes of the topics of each class, I solve doubts and I give moral support</p>- Teaching Assistant at ISFT 182 (since March 2020)<p>I offered two workshops on gamification and use of video games for libraries</p>- Substitutions in school libraries (2017 to 2019) <br /> <p>This experience taught me a lot to work in large teams of people with different ideas and to manage groups. I read tales, poetry and gived workshops in primary and secondary schools</p>"
 			},
 			{
 				"id" : 6,
@@ -33,8 +33,8 @@
 			{
 				"id" : 8,
 				"side": "right",
-				"subtitle" : "Info",
-				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> <br />20-38709622-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, Argentina</li><li><strong>Phone:</strong> <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=541128719459&text=Hi%20Emilia!'>+541128719459</a></li><br /><li><strong>Email:</strong> <br /><a href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul><br /><br /><br />"
+				"subtitle" : "Proyects",
+				"text" : "<ul><li><strong>E-commerce</strong><br /><a href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>SCRUM team final proyect of Henry Bootcamp</a><br /></li><li><strong>VisualSizer</strong><br /><a href='https://github.com/Em3c2/VisualSizer'>App to obtain the code to insert a Youtube video, with Js Vainila</a></li><li><strong>CSS3 portrait</strong><br /><a href='https://github.com/Em3c2/portraitCSSPURE'>I made a caricature like portrait in pure CSS flexbox (without svg)<a></li></ul>"
 			}
 	]
 }

@@ -59,7 +59,13 @@
 	}
 	.pixel {
 		margin-top: 20px;
-		margin-bottom: 30px
+		margin-bottom: 30px;
+		transition: 2s;
+		transform: rotateY(-180deg);
+	  	transform-style: preserve-3d;
+		background-image: url('../../media/foto.png');
+		box-shadow: inset 0 0 5px 10px rgba(250,250,250,0.1),
+							-10px 10px 10px 0 rgba(30,30,30,0.3)
 	}
 }
 
