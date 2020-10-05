@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## My personal website 
 ## https://eme-resume.vercel.app/
 
-![preview](/public//preview.png)
+![preview](/public//preview.jpg)
 
 ### What you can do:
 
