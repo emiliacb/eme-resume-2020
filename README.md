@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## My personal website 
 ## https://eme-resume.vercel.app/
 
-![preview](/public//preview.png)
+<img alt="preview" src="/public//preview.jpg" width="500">
 
 ### What you can do:
 
@@ -42,5 +42,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### ToDos
 
 - [ ] refactor for use Mailgun or Sindicate
-
-
+- [ ] create a react route for contact
+- [ ] add link or button tag to the "contact" button, in order to html accesibily 
+ 
