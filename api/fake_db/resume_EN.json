@@ -4,19 +4,19 @@
 				"id" : 2,
 				"side": "left",
 				"subtitle" : "Hi!",
-				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with fluenly in <strong>frontend</strong> and <strong>backend</strong>. I use principally <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I'm looking forward to keep learning<br />"
+				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with great knowledge in <strong>frontend</strong> and <strong>backend</strong>. I use mostly <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I look forward to learning more<br />"
 			},
 			{
 				"id" : 3,
 				"side": "left",
 				"subtitle" : "Education",
-				"text" : "In progress: <br />- Information technology management, UNPAZ (2020)<ul><li>Algoritms in C</li></ul>- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Completed :<br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course I learned the best practices to seek, manage, curate and share information. I also incorporate a big pedagogics and psicology background knoledge</ul><br /> Deserted : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
+				"text" : "In progress: <br />- Information technology management, UNPAZ (2020)<ul><li>Algorithms in C</li></ul>- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Completed :<br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course i learned to seek, manage, curate and share information. I also incorporated both, pedagogics and psychology background knowledge.</ul><br /> Deserted : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
 				"subtitle" : "Work experiencie",
-				"text" : "- Tutor at Henry (since September 2020) <p>I give extra classes of the topics of each class, I solve doubts and I give moral support</p>- Teaching Assistant at ISFT 182 (since March 2020)<p>I offered two workshops on gamification and use of video games for libraries</p>- Substitutions in school libraries (2017 to 2019) <br /> <p>This experience taught me a lot to work in large teams of people with different ideas and to manage groups. I read tales, poetry and gived workshops in primary and secondary schools</p>"
+				"text" : "- Tutor at Henry (since September 2020) <p>I give extra classes on the topics of each class, I solve doubts and give moral support.</p>- Teaching Assistant at ISFT 182 (since March 2020)<p>I offered two workshops on gamification and use of video games for libraries</p>- Substitutions in school libraries (2017 to 2019) <br /> <p>This experience taught me a lot. To manage and work with big groups of people with different ideas. I read tales, poetry and gived workshops in primary and secondary schools</p>"
 			},
 			{
 				"id" : 6,
@@ -33,7 +33,7 @@
 			{
 				"id" : 8,
 				"side": "right",
-				"subtitle" : "Proyects",
+				"subtitle" : "Projects",
 				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>SCRUM team final proyect <br />of Henry Bootcamp</a><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank' href='https://github.com/Em3c2/VisualSizer'>App to obtain the code to insert <br />a Youtube video, with Js Vainila</a></li><li><strong>CSS3 portrait</strong><br /><a target='_blank' href='https://github.com/Em3c2/portraitCSSPURE'>I made a caricature like portrait <br />in pure CSS flexbox (without svg)<a></li></ul>"
 			}
 	]

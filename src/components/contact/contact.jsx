@@ -85,7 +85,7 @@ const Contact = ({lang}) => {
 						}
 						{
 						lang === 'EN' &&
-						<Infobox subtitle={'Let\'s talk!'} text= {'I woud love to talk with you.<br />Through this form you can email-me.<br />You can test it sending to me a little message '}  />
+						<Infobox subtitle={'Let\'s talk!'} text= {'I would love to talk with you.<br />Through this form you can email-me.<br />You can test it sending to me a little message '}  />
 						}
 						<form 
 									className={`${style.form}`}
