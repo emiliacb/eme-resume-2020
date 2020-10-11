@@ -41,7 +41,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
 ### ToDos
 
-- [ ] refactor for use Mailgun or Sindicate
+- [ ] refactor for use Mailgun or Sendicate
 - [ ] create a react route for contact
 - [ ] add role = "button" flag to the "contact" div, in order to html accesibily 
 - [ ] add input validation
