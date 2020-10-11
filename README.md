@@ -43,5 +43,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [ ] refactor for use Mailgun or Sindicate
 - [ ] create a react route for contact
-- [ ] add link or button tag to the "contact" button, in order to html accesibily 
- 
+- [ ] add role = "button" flag to the "contact" div, in order to html accesibily 
+- [ ] add input validation
