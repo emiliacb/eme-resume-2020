@@ -4,25 +4,26 @@ import axios from "axios";
 import Infobox from "../infobox/infobox.jsx";
 import style from "./home.module.css";
 import qr from "../../media/qr-code.svg";
-
+import resume from "./resume_EN.json"
 const URL = process.env.REACT_APP_URL || process.env.REACT_APP_VERCEL_URL;
 
 const Home = ({ lang }) => {
-  const [itsLoading, setItsLoading] = useState(true);
-  const [resume, setResume] = useState(null);
+  const [itsLoading, setItsLoading] = useState(false);
+//  const [resume, setResume] = useState(null);
 
-  useEffect(() => {
+/*   useEffect(() => {
     setItsLoading(true);
     axios
       .get(`${URL}/api/lang/?query=${lang}`)
       .then((res) => {
-        setResume(res.data);
+        console.log(res)
+        setResume(res);
         setItsLoading(false);
       })
       .catch((err) => {
         console.log("Something was grong : ", err);
       });
-  }, [lang]);
+  }, [lang]); */
 
   return (
     <section>
