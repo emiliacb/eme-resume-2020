@@ -5,12 +5,14 @@ import Infobox from '../infobox/infobox.jsx';
 import style from './home.module.css';
 import qr from '../../media/qr-code.svg'
 
-const URL = process.env.REACT_APP_URL;
+const URL = process.env.REACT_APP_URL || process.env.REACT_APP_VERCEL_URL
 
 const Home = ({lang}) => {
 
 	const [itsLoading, setItsLoading] = useState(true);
 	const [resume,setResume] = useState([]);
+
+console.log(URL)
 
 	useEffect(
 		() => {
