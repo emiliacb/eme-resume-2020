@@ -1,5 +1,5 @@
 import React from "react";
-import { Markup } from "interweave";
+import Interweave  from "interweave";
 import style from "./infobox.module.css";
 
 function Infobox({ color, subtitle, text }) {
@@ -10,8 +10,7 @@ function Infobox({ color, subtitle, text }) {
         <h2 className={style.subtitle}>{subtitle}</h2>
         <div className={style.content}>
           <div className={style.text}>
-            <Markup content={text} />
-            {}
+            <Interweave content={text} />
           </div>
         </div>
       </div>

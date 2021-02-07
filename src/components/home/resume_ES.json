@@ -22,19 +22,19 @@
       "id": 6,
       "side": "right",
       "subtitle": "Info",
-      "text": "<ul><li><strong>Nombre : </strong> <br />Emilia Cabral Benitez</li> <li><strong>CUIL :</strong> <br />20-387***22-2 </li> <li><strong>Dirección : </strong><br /> José C. Paz,<br />  Buenos Aires,  Argentina</li><li><strong>Celu:</strong> <br /><a target='_blank'  rel='noreferrer' href='https://api.whatsapp.com/send?phone=54112***9459&text=Hola%20Emilia!'>+54112***9459</a></li><br /><li><strong>Email:</strong> <br /><a  rel='noreferrer' href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><li><strong>Fecha de nacimiento:</strong>  <br />12/12/94</li> <ul>"
+      "text": "<ul><li><strong>Nombre : </strong> <br />Emilia Cabral Benitez</li> <li><strong>CUIL :</strong> <br />20-387***22-2 </li> <li><strong>Dirección : </strong><br /> José C. Paz,<br />  Buenos Aires,  Argentina</li><li><strong>Celu:</strong> <br /><a target='_blank'  rel='noopener' href='https://api.whatsapp.com/send?phone=54112***9459&text=Hola%20Emilia!'>+54112***9459</a></li><br /><li><strong>Email:</strong> <br /><a  rel='noopener' href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><li><strong>Fecha de nacimiento:</strong>  <br />12/12/94</li> <ul>"
     },
     {
       "id": 7,
       "side": "right",
       "subtitle": "Links",
-      "text": "<ul><li><a target='_blank' rel='noreferrer'  href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' rel='noreferrer'  href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank' rel='noreferrer'  href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
+      "text": "<ul><li><a target='_blank' rel='noopener'  href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' rel='noopener'  href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank' rel='noopener'  href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
     },
     {
       "id": 8,
       "side": "right",
       "subtitle": "Proyectos",
-      "text": "<ul><li><strong>E-commerce</strong><br /><a target='_blank' rel='noreferrer'  href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>Proyecto final de Henry<br /> en metología SCRUM</a><br /><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank'  rel='noreferrer' href='https://github.com/Em3c2/VisualSizer'>App para obtener el  codigo para <br /> embeber videos de Youtube, en Js Vanilla</a><br /><br /></li><li><strong>Retrato en CSS3</strong><br /><a target='_blank'  rel='noreferrer' href='https://github.com/Em3c2/portraitCSSPURE'>Hice este retrato<br />estilo caricatura con CSS3 puro.<a></li></ul>"
+      "text": "<ul><li><strong>E-commerce</strong><br /><a target='_blank' rel='noopener'  href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>Proyecto final de Henry<br /> en metología SCRUM</a><br /><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank'  rel='noopener' href='https://github.com/Em3c2/VisualSizer'>App para obtener el  codigo para <br /> embeber videos de Youtube, en Js Vanilla</a><br /><br /></li><li><strong>Retrato en CSS3</strong><br /><a target='_blank'  rel='noopener' href='https://github.com/Em3c2/portraitCSSPURE'>Hice este retrato<br />estilo caricatura con CSS3 puro.<a></li></ul>"
     }
   ]
 }
