@@ -4,14 +4,12 @@ import axios from "axios";
 import Infobox from "../infobox/infobox.jsx";
 import style from "./home.module.css";
 import qr from "../../media/qr-code.svg";
-import en from "../../content/resume_EN.json";
-import es from "../../content/resume_ES.json";
 
 const URL = process.env.REACT_APP_URL || process.env.REACT_APP_VERCEL_URL;
-const fallout = { en, es };
+
 const Home = ({ lang }) => {
   const [itsLoading, setItsLoading] = useState(true);
-  const [resume, setResume] = useState(fallout[lang]);
+  const [resume, setResume] = useState(null);
 
   useEffect(() => {
     setItsLoading(true);
@@ -20,7 +18,6 @@ const Home = ({ lang }) => {
       .then((res) => {
         setResume(res.data);
         setItsLoading(false);
-        console.log(res.data);
       })
       .catch((err) => {
         console.log("Something was grong : ", err);
@@ -33,7 +30,7 @@ const Home = ({ lang }) => {
       <article>
         <div className={style.containerResume}>
           <div className={style.column}>
-            {resume.data &&
+            {resume &&
               resume.data.map((e) => {
                 if (e.side === "left") {
                   return (
@@ -74,7 +71,7 @@ const Home = ({ lang }) => {
                 </div>
               </div>
             </div>
-            {resume.data &&
+            {resume &&
               resume.data.map((e) => {
                 if (e.side === "right") {
                   return (
