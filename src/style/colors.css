@@ -1,63 +1,62 @@
-
 /*<==== Variables colors*/
 
 :root {
---color1 : #f1e4c0 ;
---color2 : #e9f3bf ;
---color3 : #cff6bc ;
---color4 : #baf8c2 ;
---color5 : #b8fae1 ;
---color6 : #b5f6fd ;
---color7 : #b3d4ff ;
---dark : #464646 ;
---light : #FFFFFF ;
---darkStroke: #211021 ;
---app-bg: var(--light);
---stroke: var(--darkStroke);
---attention: tomato;
---print: invert(0%);
---pixel: sepia(0%);
+  --color1: #f1e4c0;
+  --color2: #e9f3bf;
+  --color3: #cff6bc;
+  --color4: #baf8c2;
+  --color5: #b8fae1;
+  --color6: #b5f6fd;
+  --color7: #b3d4ff;
+  --dark: #464646;
+  --light: #ffffff;
+  --darkStroke: #211021;
+  --app-bg: var(--light);
+  --stroke: var(--darkStroke);
+  --attention: tomato;
+  --print: invert(0%);
+  --pixel: sepia(0%);
 }
 
 /*<==== Class colors*/
 
 .bgColor1 {
-	background-color: var(--color1)
+  background-color: var(--color1);
 }
 
 .bgColor2 {
-	background-color: var(--color2)
+  background-color: var(--color2);
 }
 
 .bgColor3 {
-	background-color: var(--color3)
+  background-color: var(--color3);
 }
 
 .bgColor4 {
-	background-color: var(--color4)
+  background-color: var(--color4);
 }
 
 .bgColor5 {
-	background-color: var(--color5)
+  background-color: var(--color5);
 }
 
 .bgColor6 {
-	background-color: var(--color6)
+  background-color: var(--color6);
 }
 
 .bgColor7 {
-	background-color: var(--color7)
+  background-color: var(--color7);
 }
 
-.bgColorRight{
-	background-color: var(--attention)
+.bgColorRight {
+  background-color: var(--attention);
 }
 
 /*<==== Printable colors*/
 
 @media print {
-	:root {
-		--app-bg: white !important;
-		--stroke: black !important;
-	}
+  :root {
+    --app-bg: white !important;
+    --stroke: black !important;
+  }
 }

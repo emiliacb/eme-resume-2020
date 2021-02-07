@@ -1,45 +1,49 @@
 @keyframes rotating {
-	0% {transform: rotate(0deg);}
-	100% {transform: rotate(-360deg);}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
-.loadingContainer{
-	background-color: var(--app-bg);
-	position: fixed;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	margin: auto;
-	z-index: 10000;
+.loadingContainer {
+  background-color: var(--app-bg);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 10000;
 }
 
 .loadingCircle {
-	max-width: 200px;
-	max-height: 200px;
-	width: 20vw;
-	height: 20vw;
-	border: 3px solid var(--stroke);
-	border-radius: 50%;
-	margin: auto;
-	display: flex;
-	justify-content: flex-end;
-	animation-name: rotating;
-	animation-iteration-count: infinite;
-	animation-duration: 0.5s;
+  max-width: 200px;
+  max-height: 200px;
+  width: 20vw;
+  height: 20vw;
+  border: 3px solid var(--stroke);
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  animation-name: rotating;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
 }
 
 .loadingCircle:before {
-	content: "";
-	max-width: 200px;
-	max-height: 200px;
-	width: 25vw;
-	height: 20vw;
-	border-radius: 50%;
-	margin-right: -70%;
-	background-color: var(--app-bg);
-	transform: rotate(60deg);
+  content: "";
+  max-width: 200px;
+  max-height: 200px;
+  width: 25vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin-right: -70%;
+  background-color: var(--app-bg);
+  transform: rotate(60deg);
 }
