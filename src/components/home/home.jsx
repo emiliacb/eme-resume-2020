@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../loading/loading.jsx";
-import axios from "axios";
+//import axios from "axios";
 import Infobox from "../infobox/infobox.jsx";
 import style from "./home.module.css";
 import qr from "../../media/qr-code.svg";
-import resume from "./resume_EN.json"
-const URL = process.env.REACT_APP_URL || process.env.REACT_APP_VERCEL_URL;
+import EN from "./resume_EN.json";
+import ES from "./resume_ES.json";
+
+//const URL = process.env.REACT_APP_URL || process.env.REACT_APP_VERCEL_URL;
+
+const resume = { EN, ES };
 
 const Home = ({ lang }) => {
   const [itsLoading, setItsLoading] = useState(false);
-//  const [resume, setResume] = useState(null);
+  //  const [resume, setResume] = useState(null);
 
-/*   useEffect(() => {
+  /*   useEffect(() => {
     setItsLoading(true);
     axios
       .get(`${URL}/api/lang/?query=${lang}`)
@@ -32,7 +36,7 @@ const Home = ({ lang }) => {
         <div className={style.containerResume}>
           <div className={style.column}>
             {resume &&
-              resume.data.map((e) => {
+              resume[lang].data.map((e) => {
                 if (e.side === "left") {
                   return (
                     <Infobox
@@ -73,7 +77,7 @@ const Home = ({ lang }) => {
               </div>
             </div>
             {resume &&
-              resume.data.map((e) => {
+              resume[lang].data.map((e) => {
                 if (e.side === "right") {
                   return (
                     <Infobox
