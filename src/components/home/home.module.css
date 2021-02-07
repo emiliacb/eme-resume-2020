@@ -13,21 +13,48 @@
 	height: 100%;
 	padding: 10px;
 }
-.pixel {
-	transition: 2s;
-	width: 300px;
-	height: 300px;
-	filter: var(--pixel);
-	margin: auto;
-	border-radius: 50%;
-	background-color: var(--bg-color);
-	background-image: url('../../media/pixel.png');
-	object-fit: contain;
-	background-size: 100%;
-	box-shadow: inset 0 0 5px 10px rgba(250,250,250,0.1),
-							10px 10px 10px 0 rgba(30,30,30,0.3)
+
+.photo {
+	background-color: transparent;
+ 	width: 300px;
+  	height: 300px;
+  	perspective: 500px;
 }
 
+.photo > div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.pixelFront,
+.pixelBack {
+	filter: var(--pixel);
+	background-color: black;
+	position: absolute;
+	top: 0;
+ 	border-radius: 50%;
+	bottom: auto;
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+  	object-fit: contain;
+  	-webkit-backface-visibility: hidden;
+  	backface-visibility: hidden;
+}
+
+.pixelFront {
+	background-image: url('../../media/pixel.png');
+	box-shadow: 10px 10px 10px 0 rgba(30,30,30,0.3);
+}
+
+.pixelBack {
+	background-image: url('../../media/foto.png');
+	transform: rotateY(180deg);
+	box-shadow: 10px 10px 10px 0 rgba(30,30,30,0.3);
+}
 
 @media (min-width: 800px) {	
 	.containerResume {
@@ -41,31 +68,21 @@
 	.column:nth-child(2){
 		width: 30%
 	}
-	.pixel:hover {
-	transition: 2s;
-	transform: rotateY(-180deg);
-  	transform-style: preserve-3d;
-	background-image: url('../../media/foto.png');
-	box-shadow: inset 0 0 5px 10px rgba(250,250,250,0.1),
-							-10px 10px 10px 0 rgba(30,30,30,0.3)
+	.photo:hover > div {
+			transform: rotateY(180deg);
 	}
 }
 
 @media (max-width: 800px) {
 	.containerResume {
 		flex-direction: column;
-		margin-top: 30px;
-		margin-bottom: 50px;	
+		margin: 20px auto 50px auto;
 	}
-	.pixel {
-		margin-top: 20px;
-		margin-bottom: 30px;
-		transition: 2s;
+	.photo {
+		margin: 20px auto 30px auto;
+	}
+	.photo > div {
 		transform: rotateY(-180deg);
-	  	transform-style: preserve-3d;
-		background-image: url('../../media/foto.png');
-		box-shadow: inset 0 0 5px 10px rgba(250,250,250,0.1),
-							-10px 10px 10px 0 rgba(30,30,30,0.3)
 	}
 }
 
@@ -75,22 +92,13 @@
 		justify-content: space-between;
 		align-items: flex-start;
 		margin: auto;
+ 		margin-top: -70px;
 		margin-left: -10px;
 		width: 600px;
-		transform: translateY(-105px) translateX(-25px) scale(0.8);
+		transform: translateY(-115px) translateX(-25px) scale(0.8);
 	}
-
 	a {
 		color: var(--stroke) !important;
-	}
-
-	.pixel {
-		width: 330px;
-		height: 330px;
-		align-self: center;
-		margin-left: 20px;
-		margin-bottom: 20px;
-		background-image: url('../../media/foto.png');
 	}
 	.column:nth-child(1) {
 		width: 250px;
@@ -107,6 +115,33 @@
 	    left: 440px;
 	    border: 1px solid white;
 	    border-width: 0 0 0 100px;
+	}
+
+	.photo {
+		transform: rotateZ(5deg);
+		margin: 0 0 70px 70px;
+		transform-style: preserve-3d;
+	}
+	.pixelFront {
+		box-shadow: none;
+	}
+	.pixelBack {
+		position: relative;
+		border-radius: 0;
+		overflow: hidden;
+		border: 1px solid black;
+		box-shadow: 0 0 0 1px white, 
+								inset 0 0 0 10px white;
+	}
+	.pixelBack:before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		background-color: white;
+		border: 1px solid white;	
+		border-width: 0 1px 1px 1px;
+		height: 25px;
+		width: calc(100% - 2px);	
 	}
 	.webVersion {
 		display: all;
@@ -126,10 +161,4 @@
 	.webVersion {
 		display: none
 	}
-}
-@media print {
- 	.containerResume {
- 		margin-top: -70px;
- 	}
-	
 }

@@ -4,37 +4,37 @@
 				"id" : 2,
 				"side": "left",
 				"subtitle" : "Hola!",
-				"text" : "Soy Emilia, desarrolladora junior en <strong>Javascript</strong>, con fluidez tanto en <strong>frontend</strong> como en <strong>backend</strong>. Uso principalmente <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> y <strong>Sequalize</strong>. Pero me encanta aprender cosas nuevas!"
+				"text" : "Soy Emilia, desarrolladora junior en <strong>Javascript</strong>, con fluidez tanto en <strong>frontend</strong> como en <strong>backend</strong>. Uso principalmente <strong>React</strong>, <strong>Gatsby</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong>, <strong>Strapi</strong>, y <strong>Sequalize</strong>. Pero me encanta aprender cosas nuevas!"
 			},
 			{
 				"id" : 3,
 				"side": "left",
-				"subtitle" : "Educación",
-				"text" : "Cursando: <br />- Gestión de tecnologías de la información, UNPAZ (2020)<ul><li>Algoritmos en C</li></ul>- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritmos, estructuras de datos,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Finalizado :<br />-  FrecodeCamp (300 hs) <ul>Algoritmos y estructuras de datos en javascript</ul>- Bibliotecario/a de instituciones educativas, ISFT 182 (3 años) <p>En esta formación aprendí a buscar información en forma profesional, curarla y compartirla. Además vi en profundidad psicología y didáctica.</p><br /> Abandonado : <br />-Profesorado Universitario de literatura (2 años)<br /><ul>Fue una experiencia que me inició en la pedagogía, y la lectura académica.</ul>"
+				"subtitle" : "Experiencia laboral",
+				"text" : "- <strong>Fullstack Engeneer</strong> en Awkbit (Oct 2020 - presente) Contract <p>React, Gatbsy, PHP, Drupal, Docker</p>- <strong>Tutora</strong> en Henry (Sep - Nov 2020) Pasantia <p> Clases extra de los temas de cada clase, resolviendo dudas y dando apoyo moral </p>- <strong>Ayudante de cátedra</strong> en ISFT 182 (2020) <p>Ofrecí dos talleres sobre <strong>gamificación</strong> y uso de videojuegos para bibliotecas</p>- <strong>Bibliotecaria escolar</strong> (2017 a 2019) <br /> <p>Esta experiencia me enseñó mucho a trabajar en equipos grandes de personas con diferentes ideas y a manejar grupos. En las escuelas leí cuentos y organicé talleres, todas las semanas, tanto en primarias como secundarias. </p>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
-				"subtitle" : "Experiencia laboral",
-				"text" : "- Tutora en Henry (desde septiempre 2020) <p>Doy clases extra de los temas de cada clase, resuelvo dudas y doy apoyo moral </p>- Ayudante de cátedra en ISFT 182 (desde marzo 2020) <p>Ofrecí dos talleres sobre gamificación y uso de videojuegos para bibliotecas</p>- Suplencias en bibliotecas escolares (2017 a 2019) <br /> <p>Esta experiencia me enseñó mucho a trabajar en equipos grandes de personas con diferentes ideas y a manejar grupos. En las escuelas leí cuentos y organicé talleres, todas las semanas, tanto en primarias como secundarias. </p>"
+				"subtitle" : "Educación",
+				"text" : "Cursando: <br />- Gestión de tecnologías de la información, UNPAZ (2020) <br />Finalizado :<br />- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritmos, estructuras de datos, Javascript ES6+, Less, React, Redux, Node, Express, Postgres, Sequalize, Passport, Webpack,</li></ul>-  FrecodeCamp (300 hs) <ul>Algoritmos y estructuras de datos en javascript</ul>- Bibliotecario/a de instituciones educativas, ISFT 182 (3 años) <p>En esta formación aprendí a buscar información en forma profesional, curarla y compartirla. Además vi en profundidad psicología y didáctica.</p><br /> Sin completar : <br />-Profesorado Universitario de literatura (2 años)<br /><ul>Fue una experiencia que me inició en la pedagogía, y la lectura académica.</ul>"
 			},
 			{
 				"id" : 6,
 				"side": "right",
 				"subtitle" : "Info",
-				"text" : "<ul><li><strong>Nombre : </strong> <br />Emilia Cabral Benitez</li> <li><strong>CUIL :</strong> <br />20-387***22-2 </li> <li><strong>Dirección : </strong><br /> José C. Paz,<br />  Buenos Aires,  Argentina</li><li><strong>Celu:</strong> <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=54112***9459&text=Hola%20Emilia!'>+54112***9459</a></li><br /><li><strong>Email:</strong> <br /><a href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><li><strong>Fecha de nacimiento:</strong>  <br />12/12/94</li> <ul>"
+				"text" : "<ul><li><strong>Nombre : </strong> <br />Emilia Cabral Benitez</li> <li><strong>CUIL :</strong> <br />20-387***22-2 </li> <li><strong>Dirección : </strong><br /> José C. Paz,<br />  Buenos Aires,  Argentina</li><li><strong>Celu:</strong> <br /><a target='_blank'  rel='noreferrer' href='https://api.whatsapp.com/send?phone=54112***9459&text=Hola%20Emilia!'>+54112***9459</a></li><br /><li><strong>Email:</strong> <br /><a  rel='noreferrer' href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><li><strong>Fecha de nacimiento:</strong>  <br />12/12/94</li> <ul>"
 			},
 			{
 				"id" : 7,
 				"side": "right",
 				"subtitle" : "Links",
-				"text" : "<ul><li><a target='_blank' href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
+				"text" : "<ul><li><a target='_blank' rel='noreferrer'  href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' rel='noreferrer'  href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank' rel='noreferrer'  href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
 			},
 			{
 				"id" : 8,
 				"side": "right",
 				"subtitle" : "Proyectos",
-				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>Proyecto final de Henry<br /> en metología SCRUM</a><br /><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank' href='https://github.com/Em3c2/VisualSizer'>App para obtener el  codigo para <br /> embeber videos de Youtube, en Js Vanilla</a><br /><br /></li><li><strong>Retrato en CSS3</strong><br /><a target='_blank' href='https://github.com/Em3c2/portraitCSSPURE'>Hice este retrato<br />estilo caricatura con CSS3 puro.<a></li></ul>"
+				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' rel='noreferrer'  href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>Proyecto final de Henry<br /> en metología SCRUM</a><br /><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank'  rel='noreferrer' href='https://github.com/Em3c2/VisualSizer'>App para obtener el  codigo para <br /> embeber videos de Youtube, en Js Vanilla</a><br /><br /></li><li><strong>Retrato en CSS3</strong><br /><a target='_blank'  rel='noreferrer' href='https://github.com/Em3c2/portraitCSSPURE'>Hice este retrato<br />estilo caricatura con CSS3 puro.<a></li></ul>"
 			}
 	]
 }

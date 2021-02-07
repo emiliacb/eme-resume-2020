@@ -1,122 +1,146 @@
 .navbar {
-	display: flex;
-	align-content: flex-end;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-	padding: 4vw 0 0 3vw;
-	width: calc(100% - 4vw);
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 4vw 0 0 3vw;
+    width: calc(100% - 4vw);
 }
+
 .title {
-	font-family: var(--title);
-	color: var(--stroke);
-	font-size: 5vmax;
+    font-family: var(--title);
+    color: var(--stroke);
+    font-size: 5vmax;
 }
+
 .linkContainer {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .link {
-	margin: 10px;
-	color: var(--stroke);
-	font-family: var(--title);
+    margin: 10px;
+    color: var(--stroke);
+    font-family: var(--title);
 }
+
 .link:hover {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
+
 .darkmodeContainer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .input {
-	display: none;
+    display: none;
 }
+
 .darkmode {
-	width: 70px;
-	max-width: 7vmax;
-	max-height: 3.5vmax;
-	height: 25px;
-	border-radius: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	margin-right: 3vw;
-	margin-left: 10px;
-	overflow: hidden;
+    width: 70px;
+    max-width: 7vmax;
+    max-height: 3.5vmax;
+    height: 25px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 3vw;
+    margin-left: 10px;
+    overflow: hidden;
 }
+
 .darkOn {
-	justify-content: flex-end;
+    justify-content: flex-end;
 }
+
 .darkmode:before {
-	content: '';
-	border-radius: 25px;
-	margin: 0 -3px 0 -3px;
-	position: relative;	
-	width: 50%;
-	height: 100%;
-	background-color: var(--attention);
+    content: '';
+    border-radius: 25px;
+    margin: 0 -3px 0 -3px;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: var(--attention);
 }
 
 @media (max-width: 550px) {
-	.printLogo,.btnPrint {
-		display: none;
-	}
+    .printLogo,
+    .btnPrint {
+        display: none;
+    }
 }
 
 @media (min-width: 550px) {
-	.printLogo,.btnPrint {
-		display: auto;
-	}
-	.btnPrint, .btnPrint:focus{
-		border: none;
-		outline: none;
-		background-color: transparent;
-	}
-	.printLogo {
-		width: 3vw;
-		min-width: 40px;
-		filter: var(--print)
-	}
-	.printLogo:hover {
-		transform: rotate(180deg);
-	}
+    .printLogo,
+    .btnPrint {
+        display: auto;
+    }
+
+    .btnPrint,
+    .btnPrint:focus {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .printLogo {
+        width: 3vw;
+        min-width: 40px;
+        filter: var(--print)
+    }
+
+    .printLogo:hover {
+        transform: rotate(180deg);
+    }
 }
 
 @media (max-width: 800px) {
-	.darkmode {
-		border: 2px solid var(--stroke);
-	}
-	.darkmode:before {
-		border: 2px solid var(--stroke);
-	}
+    .darkmode {
+        border: 2px solid var(--stroke);
+    }
+
+    .darkmode:before {
+        border: 2px solid var(--stroke);
+    }
 }
 
 @media (min-width: 800px) {
-	.title {
-		font-size: 50px;
-	}	
-	.link:nth-child(1):after {
-		content: 'lish'
-	}
-	.link:nth-child(2):after {
-		content: 'añol'
-	}
-	.darkmode {
-		border: 3px solid var(--stroke);
-	}
-	.darkmode:before {
-		border: 3px solid var(--stroke);
-	}
+    .title {
+        font-size: 50px;
+    }
+
+    .link:nth-child(1):after {
+        content: 'lish';
+    }
+
+    .link:nth-child(2):after {
+        content: 'añol';
+    }
+
+    .darkmode {
+        border: 3px solid var(--stroke);
+    }
+
+    .darkmode:before {
+        border: 3px solid var(--stroke);
+    }
 }
 
 @media print {
-	.darkmode,.linkContainer,.printLogo,.btnPrint {
-		display: none;
-		overflow: hidden;
-	}
-	.title {
-		font-size: 40px;
-		margin-bottom: 50px;
-	}
+    .darkmode,
+    .linkContainer,
+    .printLogo,
+    .btnPrint {
+        display: none;
+        overflow: hidden;
+    }
+
+    .title {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
 }

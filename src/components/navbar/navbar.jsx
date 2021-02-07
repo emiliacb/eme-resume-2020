@@ -21,11 +21,13 @@ const Navbar = ({darkMode}) => {
 		DarkMode(dark)
 	},[dark])
 
-
-
 	return (
 		<nav className={style.navbar}>
-		<header><Link to="/"><h1 className={style.title}>Fullstack Developer</h1></Link></header>
+		<header>
+			<Link to="/">
+				<h1 className={style.title}>Fullstack Developer</h1>
+			</Link>
+		</header>
 		<div className={style.darkmodeContainer}>
 			<label  htmlFor="darkmode" className={`${style.darkmode} ${style[dark]}`} >
 			</label>

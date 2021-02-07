@@ -32,9 +32,21 @@ const Contact = ({lang}) => {
 	const handleSubmit = e => {
 		e.preventDefault();
 		if (sending) return;
+		if (message.name.length <  1 || 
+			message.name.length >  50 || 
+			message.email.length < 1 || 
+			message.email.length > 50 || 
+			message.message.length < 1 ||
+			message.message.length > 700 || 
+			message.honeypot.length > 0
+			) {
+			setConfirm("exceeded")
+			return
+		}
+
 		setSending(true)
 		setConfirm('loading');
-		const scriptUrl = 'https:/\/script.google.com/macros/s/AKfycby5bQpyQnJEjOGqjMGJcNopE_4SRmI3lswBK9OWESehpEUTWRM/exec';
+		const scriptUrl = 'https://script.google.com/macros/s/AKfycby5bQpyQnJEjOGqjMGJcNopE_4SRmI3lswBK9OWESehpEUTWRM/exec';
 		const data = JSON.stringify(message);
 		const config = {
 			headers: {
@@ -71,6 +83,9 @@ const Contact = ({lang}) => {
 			<div 
 					className = {`${style.contact} ${style[contacto]}`}
 					onClick = {handleClickOpen}
+					rol = 'button'
+					onFocus = {handleClickOpen}
+					tabIndex='-1'
 			>	
 				<h2 className={style.h2Contact}>
 					{lang === 'ES' && 'Contacto '}
@@ -93,27 +108,36 @@ const Contact = ({lang}) => {
 									>
 							<input 
 										type="text" 
+										maxlength="50"
 										className={style.name} 
 										onChange= {handleChange}
 										name="name" 
 										value={message.name}
 										placeholder={lang === 'EN' ? "Your name" : "Tu nombre"}
-										id="name" />
+										id="name" 
+										required
+										/>
 							<input 
-										type="text" 
+										type="email" 
+										maxlength="50"
 										className={style.name} 
 										name="email" 
 										onChange= {handleChange}
 										value={message.email}
 										placeholder={lang === 'EN' ? "Your email address" : "Tu email"}
-										id="email" />
+										id="email" 
+										required
+										/>
 							<textarea 
 										className={style.text} 
+										maxlength="700"
 										name="message" 
 										onChange= {handleChange}
 										value={message.message}
 										placeholder={lang === 'EN' ? "Your message" : "Tu mensaje"}
-										id="message" />
+										id="message" 
+										required
+										/>
 							<div className={style.btnContainer}>
 							{
 								confirm === 'loading' &&
@@ -128,9 +152,15 @@ const Contact = ({lang}) => {
 								</div>
 							}
 							{
-								confirm === false &&
+								confirm === "exceeded" &&
 								<div className={style.confirm}>
-									{lang === 'EN' ? "Something go wrong" : "Algo salió mal :("}
+									{lang === 'EN' ? "Too many characters" : "Demasiados carácteres"}
+								</div>
+							}
+							{
+								confirm === "false" &&
+								<div className={style.confirm}>
+									"Server Error"
 								</div>
 							}
 							<button 

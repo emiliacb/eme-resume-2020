@@ -10,6 +10,8 @@ import Navbar from './components/navbar/navbar.jsx';
 import Contact from './components/contact/contact.jsx';
 import Footer from './components/footer/footer.jsx';
 
+import "./style/style.css"
+
 function App() {
 		return (
 			<Router>

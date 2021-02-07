@@ -4,37 +4,37 @@
 				"id" : 2,
 				"side": "left",
 				"subtitle" : "Hi!",
-				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with great knowledge in <strong>frontend</strong> and <strong>backend</strong>. I use mostly <strong>React</strong>, <strong>Redux</strong>, <strong>Node</strong>, <strong>Express</strong> and <strong>Sequalize</strong>. I look forward to learning more<br />"
+				"text" : "I'm Emilia. I'm a junior <strong>javascript</strong> developer, with great knowledge in <strong>frontend</strong> and <strong>backend</strong>. I use mostly <strong>React</strong>, <strong>Redux</strong>,  <strong>Gatsby</strong>, <strong>Node</strong>, <strong>Express</strong>, <strong>Strapi</strong>, <strong>Sequalize</strong>. I look forward to learning more<br />"
 			},
-			{
+				{
 				"id" : 3,
 				"side": "left",
-				"subtitle" : "Education",
-				"text" : "In progress: <br />- Information technology management, UNPAZ (2020)<ul><li>Algorithms in C</li></ul>- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures,</li><li>Javascript ES6+, Less</li><li>React, Redux,</li><li> Node, Express,</li><li>Postgres, Sequalize,</li><li> Passport, Webpack,</li></ul><br />Completed :<br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course i learned to seek, manage, curate and share information. I also incorporated both, pedagogics and psychology background knowledge.</ul><br /> Deserted : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
+				"subtitle" : "Work experiencie",
+				"text" : "- <strong>Fullstack Engeneer</strong> at Awkbit (Oct 2020 - present) Contract <p>React, Gatbsy, PHP, Drupal, Docker</p>- <strong>Tutor</strong> at Henry (Sep - Nov 2020) Internship <p>Extra classes on the topics of each class, solving doubts and moral support.</p>- <strong>Teaching Assistant</strong> at ISFT 182 (2020)<p>I offered two workshops on <strong>gamification</strong> and use of video games for libraries</p>- <strong>Schoolar Librarian</strong> (2017 to 2019) <br /> <p>This experience taught me a lot. To manage and work with big groups of people with different ideas. I read tales, poetry and gived workshops in primary and secondary schools</p>"
 			},
 			{
 				"id" : 4,
 				"side": "left",
-				"subtitle" : "Work experiencie",
-				"text" : "- Tutor at Henry (since September 2020) <p>I give extra classes on the topics of each class, I solve doubts and give moral support.</p>- Teaching Assistant at ISFT 182 (since March 2020)<p>I offered two workshops on gamification and use of video games for libraries</p>- Substitutions in school libraries (2017 to 2019) <br /> <p>This experience taught me a lot. To manage and work with big groups of people with different ideas. I read tales, poetry and gived workshops in primary and secondary schools</p>"
+				"subtitle" : "Education",
+				"text" : "In progress: <br />- Information technology management, UNPAZ (2020)<br />Completed :<br />- Henry Bootcamp (700 hs) <p><ul className='resume_list'><li>Algoritms, data structures, Javascript ES6+, Less</li><li>React, Redux, Node, Express,</li><li>Postgres, Sequalize, Passport, Webpack,</li></ul><br />-  FrecodeCamp (300 hs) <ul>Javascript Algoritms and data structures </ul>- Librarian/a of educative institutions, ISFT 182 (3 years)<ul>In this course i learned to seek, manage, curate and share information. I also incorporated both, pedagogics and psychology background knowledge.</ul><br /> Incomplete : <br />- University degreed Literature Teacher (2 years)<br /><ul>That experience was an initiation for pedagogics and academic level readings</ul>"
 			},
 			{
 				"id" : 6,
 				"side": "right",
 				"subtitle" : "Info",
-				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> <br />20-387***22-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, Argentina</li><li><strong>Phone:</strong> <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=54112***9459&text=Hi%20Emilia!'>+54112***9459</a></li><br /><li><strong>Email:</strong> <br /><a href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul><br /><br /><br />"
+				"text" : "<ul><li><strong>Name : </strong><br />Emilia Cabral Benitez</li><br /><li><strong>CUIL :</strong> <br />20-387***22-2 </li><br /><li><strong>Address : </strong><br />José C. Paz, <br />Buenos Aires, Argentina</li><li><strong>Phone:</strong> <br /><a target='_blank'  rel='noreferrer' href='https://api.whatsapp.com/send?phone=54112***9459&text=Hi%20Emilia!'>+54112***9459</a></li><br /><li><strong>Email:</strong> <br /><a rel='noreferrer'  href='mailto:emiliacabralb@gmail.com'>emiliacabralb@gmail.com</a></li><br /><li><strong>Date of bith:</strong> <br />12/12/94</li><br /><ul><br /><br /><br />"
 			},
 			{
 				"id" : 7,
 				"side": "right",
 				"subtitle" : "Links",
-				"text" : "<ul><li><a target='_blank' href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
+				"text" : "<ul><li><a target='_blank'  rel='noreferrer' href='https://github.com/Em3c2'/>GitHub</a></li><li><br /></li><li><a target='_blank' rel='noreferrer'  href='https://www.instagram.com/em3_c2'/>Instagram</a></li><li><br /></li><li><a target='_blank'  rel='noreferrer' href='https://www.linkedin.com/in/em3c2/'/>LinkedIn</a></li></ul>"
 			},
 			{
 				"id" : 8,
 				"side": "right",
 				"subtitle" : "Projects",
-				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>SCRUM team final proyect <br />of Henry Bootcamp</a><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank' href='https://github.com/Em3c2/VisualSizer'>App to obtain the code to insert <br />a Youtube video, with Js Vainila</a></li><li><strong>CSS3 portrait</strong><br /><a target='_blank' href='https://github.com/Em3c2/portraitCSSPURE'>I made a caricature like portrait <br />in pure CSS flexbox (without svg)<a></li></ul>"
+				"text" : "<ul><li><strong>E-commerce</strong><br /><a target='_blank' rel='noreferrer'  href='https://github.com/Em3c2/Henry-e-commerce-Robbo-Store'>SCRUM team final proyect <br />of Henry Bootcamp</a><br /></li><li><strong>VisualSizer</strong><br /><a target='_blank'  rel='noreferrer' href='https://github.com/Em3c2/VisualSizer'>App to obtain the code to insert <br />a Youtube video, with Js Vainila</a></li><li><strong>CSS3 portrait</strong><br /><a target='_blank' rel='noreferrer'  href='https://github.com/Em3c2/portraitCSSPURE'>I made a caricature like portrait <br />in pure CSS flexbox (without svg)<a></li></ul>"
 			}
 	]
 }
